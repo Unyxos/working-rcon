@@ -1,6 +1,6 @@
 {
   "name": "@unyxos/working-rcon",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "A working rcon library",
   "main": "dist/index",
   "scripts": {
