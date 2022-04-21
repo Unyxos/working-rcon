@@ -25,7 +25,7 @@ export const decode = (buf) => {
 	const size = buf.readInt32LE(0)
 	const id = buf.readInt32LE(4)
 	const type = buf.readInt32LE(8)
-	const body = buf.toString('utf8', 12, size - 10)
+	const body = buf.toString('ascii', 12, size - 2)
 
 	return { id, type, body }
 }
