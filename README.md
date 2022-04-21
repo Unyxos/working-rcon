@@ -6,8 +6,15 @@ This package aims to be an RCON library that just works. We do not attempt to co
 The current list of verified working games is:
 
 * Counter Strike: Global Offensive
+* Counter Strike: Source
+* Garry's Mod
+* Left 4 Dead 2
+* Half Life 2 Multiplayer
+* Team Fortress 2
 
-If you find out that this library works on a certain game, or, more importantly, doesn't work on a certain game, please let us know through the issue tracker on Github, and we will add it to this list or try to fix the issue.
+I made this fork from the original project to fix wrongly done body parsing that resulted in some fields from the answer not being returned, so I won't actively maintain this project.
+
+It's used for : https://github.com/Unyxos/srcds_exporter
 
 # Installation
 

@@ -1,7 +1,7 @@
 {
   "name": "@unyxos/working-rcon",
-  "version": "0.2.9",
-  "description": "A working rcon library",
+  "version": "0.2.10",
+  "description": "A working rcon library (with body size fix!)",
   "main": "dist/index",
   "scripts": {
     "build": "babel --out-dir dist src/**/*.js",
